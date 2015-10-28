@@ -1,29 +1,23 @@
 <div class="container">
 <h1>Domains#index</h1>
-<!--
-         @domains = Domain.new(name:name,pr:pr,bl:bl,dp:dp,aby:aby,
-                              smilerweb:smilerweb,dmoz:dmoz,c:c,n:n,o:o,d:d,dropped:dropped,cate:cate)
--->
-
-<% @domains.each do |item| %>
-<table class="table table-striped table-bordered table-responsive">
-   	<tbody>
-		<tr>
-         <th ><%= item.name %></th>
-         <td><%= item.pr %></td>
-         <td><%= item.bl %></td>
-         <td><%= item.dp %></td>
-         <td><%= item.aby %></td>
-         <td><%= item.smilerweb %></td>
-         <td><%= item.dmoz %></td>
-         <td><%= item.c %></td>
-         <td><%= item.n %></td>
-         <td><%= item.o %></td>
-         <td><%= item.d %></td>
-         <td><%= item.dropped %></td>
-   </tr>
-	</tbody>
-</table>
-
-<% end %>
+   <table class="table table-striped table-bordered table-responsive">
+      <tbody>
+   <% @domains.each do |item| %>
+      		<tr>
+               <th ><%= item.name %></th>
+               <td><%= item.pr %></td>
+               <td><%= item.bl %></td>
+               <td><%= item.dp %></td>
+               <td><%= item.aby %></td>
+               <td><%= item.smilerweb %></td>
+               <td><%= item.dmoz %></td>
+               <td><%= item.c %></td>
+               <td><%= item.n %></td>
+               <td><%= item.o %></td>
+               <td><%= item.d %></td>
+               <td><%= item.dropped %></td>
+           </tr>
+   <% end %>
+   	</tbody>
+   </table>
 </div>

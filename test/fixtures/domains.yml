@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  pr: MyString
+  bl: MyString
+  dp: MyString
+  aby: MyString
+  smilerweb: MyString
+  dmoz: MyString
+  c: MyString
+  'n': MyString
+  o: MyString
+  d: MyString
+  dropped: MyString
+  status: MyString
+  rl: MyString
+
+two:
+  name: MyString
+  pr: MyString
+  bl: MyString
+  dp: MyString
+  aby: MyString
+  smilerweb: MyString
+  dmoz: MyString
+  c: MyString
+  'n': MyString
+  o: MyString
+  d: MyString
+  dropped: MyString
+  status: MyString
+  rl: MyString

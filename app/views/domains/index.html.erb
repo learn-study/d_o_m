@@ -1,0 +1,9 @@
+<h1>Domains#index</h1>
+<!--
+         @domains = Domain.new(name:name,pr:pr,bl:bl,dp:dp,aby:aby,
+                              smilerweb:smilerweb,dmoz:dmoz,c:c,n:n,o:o,d:d,dropped:dropped,cate:cate)
+-->
+
+<% @domains.each do |item| %>
+<div><%= item.name %><%= item.pr %></div>
+<% end %>
